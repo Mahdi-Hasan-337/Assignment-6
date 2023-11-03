@@ -7,7 +7,7 @@ include_once './includes/nav.php';
 <table class="table center table-striped" style="width: 50%;">
     <thead>
         <tr>
-            <th>ORDER ID</th>
+            <th>ORDER ITEM ID</th>
             <th>PRODUCT Name</th>
             <th>QUANTITY</th>
             <th>TOTAL AMOUNT</th>
@@ -17,16 +17,16 @@ include_once './includes/nav.php';
     
     <?php 
         include_once('./includes/db_connect.php');
-        $sql = "SELECT order_items.order_id, products.name, order_items.quantity, order_items.unit_price * order_items.quantity AS  total_amount 
+        $sql = "SELECT order_items.order_item_id, products.name, order_items.quantity, order_items.unit_price * order_items.quantity AS total_amount 
                 FROM Order_Items 
                 JOIN Products 
                 ON order_items.product_id = products.product_id 
-                ORDER BY order_items.order_id ASC";
+                ORDER BY order_items.order_id ASC;";
         $result = $conn->query($sql); 
     ?>
     <?php while ($row = $result->fetch_assoc()) { ?>
         <tr>
-            <td scope="row"> <?php echo $row['order_id']; ?></td>
+            <td scope="row"> <?php echo $row['order_item_id']; ?></td>
             <td> <?php echo $row['name']; ?></td>
             <td> <?php echo $row['quantity']; ?></td>
             <td> <?php echo $row['total_amount']; ?></td>
