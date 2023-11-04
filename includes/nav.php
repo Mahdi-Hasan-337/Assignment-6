@@ -13,35 +13,14 @@
           <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./customers.php">CUSTOMERS</a>
+          <a class="nav-link active" aria-current="page" href="./tables.php">TABLES</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./categories.php">CATEGORIES</a>
-        </li>  
+          <a class="nav-link active" aria-current="page" href="./tasks.php">TASKS</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./products.php">PRODUCTS</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./orders.php">ORDERS</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./orders_items.php">ORDERS ITEMS</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"></a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./Task_1.php">TASK-1</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./Task_2.php">TASK-2</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./Task_3.php">TASK-3</a>
-        </li>  
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./Task_4.php">TASK-4</a>
-        </li>  
+          <a class="nav-link active" aria-current="page" href="./all_sql.php">SQL</a>
+        </li>
       </ul>
     </div>
   </div>

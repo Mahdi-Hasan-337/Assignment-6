@@ -10,4 +10,4 @@ include_once './includes/nav.php';
 </div>
 
 
-<?php include_once './includes/footer.php';?>
+<?php //include_once './includes/footer.php'; ?>
